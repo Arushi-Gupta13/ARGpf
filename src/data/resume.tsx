@@ -42,29 +42,24 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/Arushi-Gupta13",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/arushi-gupta1344/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://twitter.com/arushigarg1344",
         icon: Icons.x,
-
         navbar: true,
       },
-     
       email: {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -86,7 +81,6 @@ export const DATA = {
     {
       company: "Shopify",
       badges: [],
-      href: "https://shopify.com",
       location: "Remote",
       title: "Software Engineer",
       logoUrl: "/shopify.svg",
@@ -95,10 +89,6 @@ export const DATA = {
       description:
         "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
-    
-   
-   
-   
   ],
   education: [
     {
@@ -117,7 +107,6 @@ export const DATA = {
       start: "",
       end: "2022",
     },
-   
   ],
   projects: [
     {
@@ -244,8 +233,6 @@ export const DATA = {
     },
   ],
   hackathons: [
-   
-    
     {
       title: "HackDavis",
       dates: "January 20th - 21st, 2018",
@@ -289,16 +276,5 @@ export const DATA = {
         },
       ],
     },
-   
-   
-   
-  
-   
-   
-    
-    
-   
-    
-    
   ],
 } as const;
