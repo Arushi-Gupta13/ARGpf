@@ -135,7 +135,7 @@ export const DATA = {
    
     {
       title: "Extractopus",
-      href: "https://llm.report",
+      href: "https://extractopus.com/",
       dates: "Jan 2024- March 2024",
       active: true,
       description:
@@ -157,7 +157,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/Byteoski-Developers/extractopus",
           icon: <Icons.github className="size-3" />,
         },
       ],
